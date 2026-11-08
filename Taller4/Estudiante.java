@@ -4,14 +4,12 @@ public class Estudiante {
     private int edad;
     private double notaPromedio;
 
-    // Constructor
     public Estudiante(String nombre, int edad, double notaPromedio) {
         setNombre(nombre);
         setEdad(edad);
         setNotaPromedio(notaPromedio);
     }
 
-    // 2. Métodos get y set con validaciones
     public String getNombre() {
         return nombre;
     }
